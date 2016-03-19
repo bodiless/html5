@@ -3,6 +3,14 @@
   <head>
     <title> HTML 5 </title>
     <meta charset="UTF-8">
+    <!-- css moved to external file
+    <style>
+      body {background-color:lightgrey;}
+      h1   {color:blue;}
+      p    {color:green;}
+    </style>
+    -->
+    <link rel="stylesheet" href="styles.css"> 
   </head>
   <body>
     <h1>My First Heading</h1>
@@ -61,7 +69,24 @@
       The <bdo> element is used to override the current text direction:
     </p>
     <bdo dir="rtl">This text will be written from right to left</bdo>
-
+    <hr \>
+    <pre>
+      <code>	Defines programming code
+      <kbd>	Defines keyboard input 
+      <samp>	Defines computer output
+      <var>	Defines a variable
+      <pre>	Defines preformatted text
+    </pre>
+    <!-- Write your comments here -->
+    <!--[if IE 8]>
+      Conditional comment.... some HTML here ....
+    <![endif]-->
+    <!-- Styling -->
+    <h6 style="color:blue;"> h6 in blue </h6>
+    <!-- ID -->
+    <p id="p01">I am different</p>
+    <!-- Class -->
+    <p class="error">I am different</p>
 
   </body>
 </html>
