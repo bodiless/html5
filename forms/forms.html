@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form id="form1">
+  First name:<br>
+  <input type="text" name="firstname" value="John" readonly>
+  <br>
+  Username2: <input type="text" name="usrname" required>
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" value="John" disabled>
+  <br>
+  E-mail: <input type="email" name="email" autocomplete="off"><br>
+  <br>
+  Country code: <input type="text" name="country_code" pattern="[A-Za-z]{3}" title="Three letter country code">
+  <br>
+  <input type="text" name="fname" placeholder="First name">
+  <br>
+  User password:<br>
+  <input type="password" name="psw" size="40">
+  <input type="submit" value="Submit" formenctype="multipart/form-data" value="Submit as Multipart/form-data">
+  <input type="submit" formaction="demo_admin.asp"
+  <input type="image" src="img_submit.gif" alt="Submit" width="48" height="48">
+
+
+</form>
+
+<p>Note that the form itself is not visible.</p>
+
+<p>Also note that the default width of a text input field is 20 characters.</p>
+<hr \>
+<form>
+  <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+  <input type="checkbox" name="vehicle2" value="Car"> I have a car 
+</form>
+
+<hr \>
+<form>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other
+</form>
+<hr \>
+<form action="action_page.php" method="get">
+<!-- there is more attributes for form !!! -->
+  First name:<br>
+  <input type="text" name="firstname" value="Mickey">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" value="Mouse">
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+<hr \>
+<textarea name="message" rows="10" cols="30">
+The cat was playing in the garden.
+</textarea>
+
+<hr \>
+<button type="button" onclick="alert('Hello World!')">Click Me!</button>
+
+<hr \>
+<input list="browsers">
+
+<datalist id="browsers">
+  <option value="Internet Explorer">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+
+</body>
+</html>
+
